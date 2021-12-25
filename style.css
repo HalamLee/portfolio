@@ -39,7 +39,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   cursor: default;
 }
@@ -135,7 +135,7 @@ button {
 
 /* Home */
 #home {
-  background: url("imgs/home-background.png") center/cover no-repeat;
+  background: url('imgs/home-background.png') center/cover no-repeat;
   padding: 40px;
   text-align: center;
 }
@@ -211,13 +211,17 @@ button {
   font-size: var(--font-small);
 }
 
-.about__school {
+.about {
   display: flex;
   align-items: center;
 }
 
-.about__school img {
+.about img {
   width: 80px;
+}
+
+.about__Wooahan-Agile img {
+  border-radius: 50%;
 }
 
 .school__description {
@@ -385,7 +389,7 @@ button {
 }
 
 .project__description h3:after {
-  content: "";
+  content: '';
   display: block;
   position: relative;
   left: 50%;
